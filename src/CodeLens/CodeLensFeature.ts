@@ -36,7 +36,7 @@ function enableCodeLens(context: ExtensionContext) {
     {
       language: "php",
       scheme: "file",
-      pattern: "**/test*/**/*.php",
+      pattern: "**/[tT]est*/**/*.php",
     },
     new PhpCodeLensProvider(),
   );
